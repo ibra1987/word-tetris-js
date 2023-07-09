@@ -1,0 +1,78 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(233, 221, 222);
+  color: rgb(65, 61, 61);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  padding: 10px;
+  width: 800px;
+}
+.playground {
+  width: 100%;
+  background-color: white;
+  height: 400px;
+  border: 1px solid lightgray;
+}
+.inputText {
+  width: 100%;
+  outline: none;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid lightgray;
+  color: rgb(65, 61, 61);
+  font-size: 16px;
+  margin: 10px 0;
+}
+.wordDiv {
+  color: rgb(39, 36, 36);
+  padding: 5px;
+  font-weight: bold;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.letterSpan {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(210, 221, 210);
+  font-size: 18px;
+  margin: 0.5px;
+  color: rgb(63, 71, 77);
+}
+.charFound {
+  background-color: rgb(56, 233, 56);
+}
