@@ -15,12 +15,12 @@
 html {
   height: 100%;
   width: 100%;
+  color: rgb(218, 207, 207);
 }
 * {
   margin: 0;
   padding: 0;
-  background-color: rgb(233, 221, 222);
-  color: rgb(65, 61, 61);
+  background-color: rgb(54, 58, 73);
 }
 
 body {
@@ -37,17 +37,14 @@ body {
 }
 .playground {
   width: 100%;
-  background-color: white;
+  background-color: rgb(48, 50, 63);
   height: 400px;
-  border: 1px solid lightgray;
 }
 .inputText {
   width: 100%;
   outline: none;
-  background-color: white;
+  background-color: rgb(48, 50, 63);
   padding: 5px;
-  border: 1px solid lightgray;
-  color: rgb(65, 61, 61);
   font-size: 16px;
   margin: 10px 0;
 }
@@ -55,7 +52,7 @@ body {
   color: rgb(39, 36, 36);
   padding: 5px;
   font-weight: bold;
-  background-color: white;
+  background-color: inherit;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -74,5 +71,5 @@ body {
   color: rgb(63, 71, 77);
 }
 .charFound {
-  background-color: rgb(56, 233, 56);
+  background-color: rgba(118, 247, 118, 0.63);
 }
